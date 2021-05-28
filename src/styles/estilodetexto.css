@@ -1,0 +1,38 @@
+#btn1{
+	top: 450px;
+}
+
+#btn2{
+	top: 550px;
+}
+
+#btn3{
+	top: 700px;
+}
+
+#btn4{
+	top: 800px;
+}
+
+#btnhome{
+	top: 350px;
+}
+
+#txthome{
+	left: 150px;
+	bottom: 350px;
+}
+
+#txtbio{
+	top: 50px;
+}
+
+.titulos{
+	color: #ffffff;
+	text-align: center;
+	right: 12.5px;
+	font-family: spartan;
+	font-size: 36px;
+	align-items: center;
+	position: relative;
+}

@@ -1,0 +1,73 @@
+@media (max-width: 600px){
+
+    .titulos{
+        top: initial;
+    }
+
+    .foto{
+        left: 190px;
+    }
+
+    .principal{
+        display: block;
+        width: inherit;
+        height: 50%;
+    }
+
+    .buttons .close{
+        display: block;
+    }
+
+    #btnhome{
+        top: inherit;
+        left: 8px;
+        width: 50px;
+    }
+
+    #btn1{
+        top: 300px;
+        left: 8px;
+        width: 50px;
+    }
+
+    #btn2{
+        top:400px;
+        left: 8px;
+        width: 50px;
+        font-size: 30%;
+    }
+
+    #btn3{
+        top: 550px;
+        left: 8px;
+        width: 50px;
+        font-size: 60%;
+    }
+
+    #btn4{
+        top: 650px;
+        left: 8px;
+        width: 50px;
+    }
+
+    .textosdosbotoes{
+        font-size: 75%;
+    }
+
+    .textosprincipais{
+        font-size: 20px;
+    }
+
+    #txthome{
+        left: 37.5px;
+        bottom: 400px;
+    }
+
+    .listacontato{
+        left: 50px;
+    }
+
+    #item{
+        font-size: 20px;
+    }
+}

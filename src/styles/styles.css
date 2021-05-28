@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(221, 248, 252);
+    display: inherit;
+}
+
+.container{
+    background-color: #ffffff;
+    height: 550px;
+    width: inherit;
+}
+
+.textbox{
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    width: auto;
+    align-items: center;
+}
+
+.buttons{
+    background-color: lightgrey;
+    display:inline-block;
+    height: 100%;
+    left: 0;
+    width: 15%;
+}
+
+.foto{
+    position:sticky;
+    top: 10px;
+    left: 650px;
+}
+
+.divdafoto{
+    top: 10px;
+    left: 650px;
+}
+
+.principal{
+    width: inherit;
+    height: 300px;
+    background-color: rgb(99, 36, 180);
+    align-items: center;
+}
+
+.botoes{
+    height: inherit;
+    width: 300px;
+    background-color: #ffffff;
+}
+
+
+.assinaturafinal{
+    width: inherit;
+    background-color: inherit;
+    position: relative;
+}
+
+.listacontato{
+    display: inline-block;
+    bottom: 200px;
+    left:275px;
+    position: relative;
+}
+
+#item{
+    font-family: spartan;
+    font-size: 26px;
+}
