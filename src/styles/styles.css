@@ -9,12 +9,11 @@ body{
     width: inherit;
 }
 
-.textbox{
+.textobiografia{
     display: inline-block;
-    height: 100%;
-    left: 0;
-    width: auto;
-    align-items: center;
+    position: relative;
+    bottom: 200px;
+    left: 275px;
 }
 
 .buttons{
@@ -59,11 +58,44 @@ body{
 .listacontato{
     display: inline-block;
     bottom: 200px;
-    left:275px;
     position: relative;
+    left: 275px;
 }
 
 #item{
     font-family: spartan;
     font-size: 26px;
 }
+
+.listacurriculo{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+#item2{
+    font-family: spartan;
+    font-size: 26px;
+}
+
+#itemdados{
+    left: 15px;
+}
+
+#projetos{
+    left: auto;
+}
+
+#itemprojeto{
+    font-family: spartan;
+    font-size: 26px;
+}
+
+.textointeresses{
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: 275px;
+}
+

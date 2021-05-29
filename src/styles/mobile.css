@@ -14,10 +14,6 @@
         height: 50%;
     }
 
-    .buttons .close{
-        display: block;
-    }
-
     #btnhome{
         top: inherit;
         left: 8px;
@@ -64,10 +60,41 @@
     }
 
     .listacontato{
-        left: 50px;
+        left: 0px;
+        width: 350px;
+        bottom: 250px;
     }
 
     #item{
+        font-size: 16px;
+    }
+
+    .listacurriculo{
+        left: 0px;
+        width: 350px;
+        bottom: 100px;
+    }
+
+    #item2{
         font-size: 20px;
+    }
+
+    #projetos{
+        right: 30px;
+    }
+
+    #itemprojeto{
+        font-size: 20px;
+        right: 20px;
+    }
+
+    .textobiografia{
+        left: 15px;
+        bottom: 275px;
+    }
+
+    .textointeresses{
+        left: 35px;
+        bottom: 275px;
     }
 }
