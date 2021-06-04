@@ -1,11 +1,17 @@
 @media (max-width: 600px){
 
+    /* PRINCIPAL */
     .titulos{
         top: initial;
+        right: 5px;
     }
 
     .foto{
         left: 190px;
+    }
+
+    .divdalogo{
+        left: 15px;
     }
 
     .principal{
@@ -13,41 +19,18 @@
         width: inherit;
         height: 50%;
     }
-
-    #btnhome{
-        top: inherit;
-        left: 8px;
-        width: 50px;
+    
+    #mobile-only{
+        display: block;
     }
 
-    #btn1{
-        top: 300px;
-        left: 8px;
-        width: 50px;
-    }
-
-    #btn2{
-        top:400px;
-        left: 8px;
-        width: 50px;
-        font-size: 30%;
-    }
-
-    #btn3{
-        top: 550px;
-        left: 8px;
-        width: 50px;
-        font-size: 60%;
-    }
-
-    #btn4{
-        top: 650px;
-        left: 8px;
-        width: 50px;
-    }
-
-    .textosdosbotoes{
-        font-size: 75%;
+    /* CONTEÚDO */
+    .textbox{
+        display:inline-block;
+        position: relative;
+        left: 0px;
+        width:inherit;
+        top:0px;
     }
 
     .textosprincipais{
@@ -55,14 +38,13 @@
     }
 
     #txthome{
-        left: 37.5px;
+        left: 0px;
         bottom: 400px;
     }
 
     .listacontato{
-        left: 0px;
-        width: 350px;
-        bottom: 250px;
+        left: 50px;
+        top: 250px;
     }
 
     #item{
@@ -80,12 +62,24 @@
     }
 
     #projetos{
-        right: 30px;
+        right: 20px;
+        top: 20px;
+        font-weight: bolder;
+    }
+
+    #itemdados{
+        top: -10px;
+        font-weight: bolder;
+    }
+
+    #item2{
+        top: -10px;
     }
 
     #itemprojeto{
         font-size: 20px;
         right: 20px;
+        top: 20px;
     }
 
     .textobiografia{
@@ -97,4 +91,44 @@
         left: 35px;
         bottom: 275px;
     }
+
+    #txtbio{
+        font-size: 20px;
+    }
+
+    /* BOTÕES VERSÃO MOBILE*/
+    
+    .buttons{
+        display: none;
+    }
+
+    #btnhome{
+        top: 70px;
+        left: 180px;
+    }
+
+    #btn1{
+        top: 125px;
+        left: 190px;
+    }
+
+    #btn2{
+        top: 170px;
+        left: 180px;
+    }
+
+    #btn3{
+        top:265px;
+        left: 190px;
+    }
+
+    #btn4{
+        top: 325px;
+        left: 195px;
+    }
+
+    .textosdosbotoes{
+        font-size: 85%;
+    }
+
 }

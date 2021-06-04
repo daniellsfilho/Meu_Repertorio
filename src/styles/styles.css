@@ -1,27 +1,54 @@
-body{
-    background-color: rgb(221, 248, 252);
-    display: inherit;
+.container-fluid-height{
+    height: 600px;
 }
 
-.container{
-    background-color: #ffffff;
-    height: 550px;
-    width: inherit;
+#mobile-only{
+    display: none;
+    background-color: rgb(99, 36, 180);
 }
 
-.textobiografia{
-    display: inline-block;
+.menu-mobile{
+    top: 10px;
     position: relative;
-    bottom: 200px;
-    left: 275px;
+    left: 175px;
+}
+
+.toggler-color{
+    background-color: rgb(99, 36, 180);
+}
+
+.bg-height{
+    height: 500px;
+}
+
+.navbar-custom-color{
+    background-color: rgb(99, 36, 180);
+}
+
+.botaomobile{
+    height: 50px;
+    background-color: black;
+}
+.textbox{
+    width: 85%;
+    height: 600px;
+    position: relative;
+    left: 225px;
+    bottom:600px;
+}
+
+.footer{
+    width: inherit;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(99, 36, 180);
+    position: relative;
 }
 
 .buttons{
-    background-color: lightgrey;
-    display:inline-block;
-    height: 100%;
-    left: 0;
+    height: 600px;
     width: 15%;
+    background-color: lightgray;
 }
 
 .foto{
@@ -42,23 +69,10 @@ body{
     align-items: center;
 }
 
-.botoes{
-    height: inherit;
-    width: 300px;
-    background-color: #ffffff;
-}
-
-
-.assinaturafinal{
-    width: inherit;
-    background-color: inherit;
-    position: relative;
-}
-
 .listacontato{
     display: inline-block;
-    bottom: 200px;
     position: relative;
+    top: 200px;
     left: 275px;
 }
 
@@ -70,8 +84,8 @@ body{
 .listacurriculo{
     display: inline-block;
     position: relative;
-    bottom: 50px;
     left: 50px;
+    top: 100px;
 }
 
 #item2{
@@ -98,4 +112,19 @@ body{
     bottom: 200px;
     left: 275px;
 }
+
+.logo{
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.divdalogo{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    top:0px;
+    left:0px;
+}
+
 
