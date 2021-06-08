@@ -1,7 +1,7 @@
 <h1> Trabalho de Design Digital 1º semestre </h1>
 <hr>
 <section>
-<h2> Este repositório é uma atividade da matéria de Design Digital, do curso de Desnvolvimento de Software Multiplataforma da Fatec-SJC </h2>
+<h2> Este repositório é uma atividade da matéria de Design Digital, do curso de Desenvolvimento de Software Multiplataforma da Fatec-SJC </h2>
 <section>
 <h3> Nome do aluno: Daniel Luciano dos Santos Filho </h3>
 <h3> RA: 1461392111028 </h3>
@@ -27,6 +27,6 @@
 <h3> SEGUNDA ENTREGA: </h3>
 <p> Na segunda entrega foram entregues a versão final do protótipo navegável e o protótipo para dispositivos mobile. </p>
 <h4> Link: </h4>
-<li> Vídeo da segunda entrega: </li>
+<li> Vídeo da segunda entrega: https://youtu.be/z9_wJhqlh2c</li>
 </section>
 </section>
