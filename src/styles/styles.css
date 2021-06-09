@@ -35,10 +35,6 @@
     background-color: rgb(99, 36, 180);
 }
 
-.botaomobile{
-    height: 50px;
-    background-color: black;
-}
 .textbox{
     width: 85%;
     height: 600px;
@@ -58,7 +54,7 @@
 .buttons{
     height: 600px;
     width: 15%;
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
 }
 
 .foto{
