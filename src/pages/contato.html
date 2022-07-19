@@ -2,66 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="../styles/mobile.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../styles/reset.css">
+	<link rel="stylesheet" href="../styles/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
-    <div id="mobile-only">	
-		<div class="collapse" id="navbarToggleExternalContent">
-			<div class="bg-white bg-height">
-			  	<h5 class="menu-mobile">Menu Principal</h5>
-			  	<a class="textosdosbotoes" id="btnhome" href="index.html"> Página Inicial </a>
-				<a class="textosdosbotoes" id="btn1" href="biografia.html"> Biografia </a>
-				<a class="textosdosbotoes" id="btn2" href="info.html"> Informações <br> curriculares <br> e pessoais </a>
-				<a class="textosdosbotoes" id="btn3" href="interesses.html"> Interesses </a>
-				<a class="textosdosbotoes" id="btn4" href="contato.html"> Contato </a>
-			</div>
+    <header>
+		<div class="divDaFoto">
+			<img class="fotoMain" src="../img/foto_200.png" alt="Minha foto">
 		</div>
-		<nav class="navbar navbar-dark toggler-color">
-			<div class="container-fluid toggler-color">
-			  	<button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon toggler-color"></span>
-			  	</button>
-			</div>
+		<h1> Contato </h1>
+	</header>
+	<main>
+		<nav class="menu">
+			<a href="../pages/index.html" class="itemMenu"> Home</a>
+			<a href="../pages/biografia.html" class="itemMenu"> Biografia </a>
+			<a href="../pages/contato.html" class="itemMenu"> Contato </a>
+			<a href="../pages/info.html" class="itemMenu"> Informações </a>
+			<a href="../pages/interesses.html" class="itemMenu"> Interesses </a>
 		</nav>
-	</div>
-	<div class="principal">
-		<div class="divdalogo">
-			<img class="logo" src="../img/Logo.png">
+		<div class="caixa">
+			<div class="caixa-conteudo">
+				<ul>
+					<li>Linkedin: daniellsfilho</li>
+					<li>Github: daniellsfilho</li>
+					<li>Email pessoal: daniel.2308@outlook.com</li>
+				</ul>
+			</div>
 		</div>
-		<div class="divdafoto">
-			<img class = "foto" srcset="../img/foto_100.png 100w, ../img/foto_200.png 200w"
-				sizes="(max-width: 600px) 100px, 200px">
-		</div>	
-		<h1 class="titulos"> Contato </h1>
-	</div>
-	<div class="container-fluid container-fluid-height">
-		<div class="buttons">
-			<a class="textosdosbotoes" id="btnhome" href="index.html"> Página Inicial </a>
-			<a class="textosdosbotoes" id="btn1" href="biografia.html"> Biografia </a>
-			<a class="textosdosbotoes" id="btn2" href="info.html"> Informações <br> curriculares <br> e pessoais </a>
-			<a class="textosdosbotoes" id="btn3" href="interesses.html"> Interesses </a>
-			<a class="textosdosbotoes" id="btn4" href="contato.html"> Contato </a>
-		</div>
-		<div class="textbox">
-			<div class="listacontato">
-				<ul style="list-style: none;">
-					<li class="textosprincipais" id="item"> Email: daniel.2308@outlook.com </li>
-					<li class="textosprincipais" id="item"> Telefone(celular): (12)99602-9252 </li>
-					<li class="textosprincipais" id="item"> Linkedin: <a href="https://www.linkedin.com/in/daniel-filho-3b6583209/" target="blank"> Daniel Filho </a></li>
-				</ul>	
-			</div>		
-		</div>
-	</div>
-	<div class="footer">
-		<p class="assinatura"> Daniel Luciano dos Santos Filho</p>
-	</div>
-	
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-
+	</main>
+	<footer>
+		<p> Daniel Luciano dos Santos Filho </p>
+	</footer>
 </body>
 </html>
