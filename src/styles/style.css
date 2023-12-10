@@ -80,6 +80,10 @@ header h1{
     top: 50px;
 }
 
+#caixa-info{
+    height: 600px;
+}
+
 .caixa-conteudo p{
     font-size: 18px;
     position: relative;
