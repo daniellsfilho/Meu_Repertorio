@@ -65,11 +65,15 @@ header h1{
 
 .caixa-conteudo{
     position: relative;
-    width: 940px;
+    width: 75%;
     height: 300px;
     top: 100px;
     margin: auto;
     text-align: center;
+}
+
+#caixa-projetos{
+    height: 1900px;
 }
 
 #caixa-conteudo-info{
@@ -112,6 +116,44 @@ footer p{
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+
+.card-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+    opacity: 60%;
+    max-height: 800px;
+}
+
+.card img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 480px){
 
